@@ -21,9 +21,9 @@ class Anomaly extends GOB {
     // this.height = 1000;
 
 		this.z = 1;
-		this.radius = 500; // opts.radius || 0;
+		this.radius = 300; // opts.radius || 0;
 		this.force = 5;
-		this.forceDirection = 1;
+		this.forceDirection = 5;
 
     // .blackhole {
     //   width: 10em;

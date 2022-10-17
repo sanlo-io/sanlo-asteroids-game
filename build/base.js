@@ -1273,9 +1273,9 @@ class Anomaly extends GOB {
     // this.height = 1000;
 
 		this.z = 1;
-		this.radius = 500; // opts.radius || 0;
+		this.radius = 300; // opts.radius || 0;
 		this.force = 5;
-		this.forceDirection = 1;
+		this.forceDirection = 5;
 
     // .blackhole {
     //   width: 10em;
@@ -2843,7 +2843,7 @@ class World extends GOB {
     }
 
     spawnAsteroids (params = {}) {
-      const asteroidCount = 1;
+      const asteroidCount = 3;
       const third_width = this.width / 3;
       const third_height = this.height / 3;
       const sectionList = [

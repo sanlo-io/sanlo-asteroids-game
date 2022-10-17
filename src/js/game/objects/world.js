@@ -140,7 +140,7 @@ class World extends GOB {
     }
 
     spawnAsteroids (params = {}) {
-      const asteroidCount = 1;
+      const asteroidCount = 3;
       const third_width = this.width / 3;
       const third_height = this.height / 3;
       const sectionList = [
