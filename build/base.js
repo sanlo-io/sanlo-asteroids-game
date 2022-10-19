@@ -2825,7 +2825,7 @@ class World extends GOB {
         new ShootingStars({ world: this })
       );
 
-      new Anomaly({ world: this })
+      // new Anomaly({ world: this })
     }
 
     spawnPlayer (params = {}) {
@@ -2843,7 +2843,7 @@ class World extends GOB {
     }
 
     spawnAsteroids (params = {}) {
-      const asteroidCount = 3;
+      const asteroidCount = 2;
       const third_width = this.width / 3;
       const third_height = this.height / 3;
       const sectionList = [
